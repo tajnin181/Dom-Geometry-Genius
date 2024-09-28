@@ -11,7 +11,7 @@ function calculateRhombusArea(){
    
 
     //calculate
-    const area = d1 * d2;
+    const area = 0.5 * d1 * d2;
 
     const final = document.getElementById('rhombus-area');
     final.innerHTML = area;
