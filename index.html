@@ -106,20 +106,20 @@
                     <img class="img" src="img/rhombus.png" alt="">
                     <div>
                         <h2>Rhombus</h2>
-                        <p> Area (A) = 0.5 * d1 *d2</p>
+                        <p> Area (A) = 0.5 * d1 * d2</p>
                     </div>
                     <div>
-                        <input class="f-input" type="text " placeholder="d1">
+                        <input id="rhombus-d1" class="f-input" type="text " placeholder="d1">
                         <span class="f-span">cm</span>
 
-                        <input class="s-input" type="text " placeholder="d2">
+                        <input id="rhombus-d2" class="s-input" type="text " placeholder="d2">
                         <span>cm</span>
                     </div>
                     <div>
-                        <p>Area: <span>0</span> <span>cm<sup>2</sup></span></p>
+                        <p>Area: <span id="rhombus-area">0</span> <span>cm<sup>2</sup></span></p>
                     </div>
                     <div>
-                        <button class="btn"> Calculate</button>
+                        <button onclick="calculateRhombusArea()" class="btn"> Calculate</button>
                     </div>
                 </div>
                 <!-- Single Shape -->
@@ -130,17 +130,17 @@
                         <p> Area (A) = 0.5 * p * b</p>
                     </div>
                     <div>
-                        <input class="f-input" type="text " placeholder="w">
+                        <input id="Pentagon-p" class="f-input" type="text " placeholder="w">
                         <span class="f-span">cm</span>
-                        <input class="s-input" type="text " placeholder="l">
+                        <input id="Pentagon-b" class="s-input" type="text " placeholder="l">
                         <span>cm</span>
                     </div>
                     <div>
-                        <p>Area: <span>0</span> <span>cm<sup>2</sup></span></p>
+                        <p>Area: <span id="Pentagon-area">0</span> <span>cm<sup>2</sup></span></p>
                     </div>
                     <br><br><br>
                     <div>
-                        <button class="btn"> Calculate</button>
+                        <button onclick="calculatePentagonArea()" class="btn"> Calculate</button>
                     </div>
                 </div>
                 <!-- Single Shape -->
@@ -171,5 +171,7 @@
      <script src="js/Ellipse.js"></script>
      <script src="js/parallelogram.js"></script>
     <script src="js/trianglel.js"></script>
+    <script src="js/rhombus.js"></script>
+    <script src="js/Pentagon.js"></script>
 </body>
 </html>

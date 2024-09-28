@@ -32,5 +32,6 @@ function calculateRectangleArea(){
 
     const final = document.getElementById('rectangle-area');
     final.innerHTML = area
-
 }
+
+
